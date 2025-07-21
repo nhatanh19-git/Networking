@@ -1,118 +1,81 @@
-# 📚 Hướng Dẫn Lộ Trình Học CCNA 200-301 Chuẩn Cisco
+| **Title** | **Hướng Dẫn Lộ Trình Học CCNA 200-301 Chuẩn Cisco NetAcad** |
+|-----------|-------------------------------------------------------------|
+| **ID**    | CCNA-200-301-NETACAD-ROADMAP                                |
+| **Tag**   | CCNA, Cisco, NetAcad, Roadmap, Học Mạng, Blog Cá Nhân       |
 
-Xin chào các bạn! Đây là bài viết đầu tiên trong chuỗi *Blog chia sẻ kinh nghiệm học CCNA*.  
-Mục tiêu là giúp bạn **nắm được lộ trình và cấu trúc nội dung thi CCNA** theo **Cisco Official Blueprint mới nhất**.
+# 📚 Hướng Dẫn Lộ Trình Học CCNA 200-301 Chuẩn Cisco NetAcad
 
----
-
-## 📑 Mục Lục
-
-- [1️⃣ Giới Thiệu CCNA](#1️⃣-giới-thiệu-ccna)
-- [2️⃣ Lộ Trình Học Chuẩn](#2️⃣-lộ-trình-học-chuẩn)
-  - [2.1 Network Fundamentals](#21-network-fundamentals)
-  - [2.2 Network Access](#22-network-access)
-  - [2.3 IP Connectivity](#23-ip-connectivity)
-  - [2.4 IP Services](#24-ip-services)
-  - [2.5 Security Fundamentals](#25-security-fundamentals)
-  - [2.6 Automation & Programmability](#26-automation--programmability)
-- [3️⃣ Mẹo Ôn Tập Hiệu Quả](#3️⃣-mẹo-ôn-tập-hiệu-quả)
-- [4️⃣ Tài Nguyên Học](#4️⃣-tài-nguyên-học)
-- [5️⃣ Lời Kết](#5️⃣-lời-kết)
+**Xin chào các bạn!**  
+Đây là **blog cá nhân**, ghi lại toàn bộ quá trình **học CCNA 200-301** của tôi, sắp xếp **chuẩn Cisco NetAcad** để bạn dễ tra cứu, dễ học, dễ tìm link lab sau này.
 
 ---
 
-## 1️⃣ Giới Thiệu CCNA
+## 🎓 Lộ Trình CCNA 200-301 (Cisco NetAcad)
 
-**CCNA 200-301** (*Cisco Certified Network Associate*) là chứng chỉ mạng cơ bản, xác minh bạn có khả năng triển khai, vận hành và xử lý các vấn đề hạ tầng mạng nhỏ và vừa.  
-Nội dung thi bao phủ **6 lĩnh vực** chính, tập trung vào Switching, Routing, Security và Automation.
+### 📌 Kỳ 1 – Introduction to Networks (ITN)
 
-- **Thời gian thi**: 120 phút  
-- **Hình thức thi**: Trắc nghiệm & mô phỏng  
-- **Điểm đậu**: ~ 825/1000
-
----
-
-## 2️⃣ Lộ Trình Học Chuẩn
-
-### 2.1 Network Fundamentals
-
-- OSI & TCP/IP Model.
-- Các thành phần mạng: Router, Switch, Access Point, Controller.
-- Ethernet LAN, Fiber, Wireless.
-- IPv4, IPv6 Addressing, Subnetting.
-- ARP, NAT, DHCP, DNS.
-- Routing Table, FIB, RIB.
-
-### 2.2 Network Access
-
-- Switch Concepts: MAC Table, Aging.
-- VLAN: cấu hình, VLAN Trunking (802.1Q).
-- Inter-VLAN Routing.
-- STP, RSTP.
-- EtherChannel: PAgP, LACP.
-- Wireless Fundamentals: SSID, RF, BSS, ESS.
-- WLAN Components: AP, WLC, CAPWAP.
-
-### 2.3 IP Connectivity
-
-- Static Routing.
-- OSPFv2 (Single Area): Adjacency, DR/BDR.
-- Path Selection: AD, Metric.
-- First Hop Redundancy: HSRP, VRRP.
-
-### 2.4 IP Services
-
-- NAT, PAT.
-- DHCP relay/server.
-- NTP.
-- QoS Basics.
-- SNMP, Syslog.
-- FTP, TFTP.
-
-### 2.5 Security Fundamentals
-
-- Các mối đe doạ: Phishing, MITM.
-- Device Hardening: Password, SSH.
-- AAA: TACACS+, RADIUS.
-- Port Security, DHCP Snooping, DAI.
-- ACL: Standard, Extended.
-- VPN Concept.
-
-### 2.6 Automation & Programmability
-
-- Traditional vs. Controller-based Network.
-- SDN, API Northbound/Southbound.
-- REST APIs, JSON.
-- Automation Tools: Puppet, Chef, Ansible.
-- Cisco DNA Center.
+- [Module 1: Networking Today]()
+- [Module 2: Basic Switch and End Device Configuration]()
+- [Module 3: Protocols and Communications]()
+- [Module 4: Network Access (Ethernet, MAC, ARP)]()
+- [Module 5: Ethernet Switching]()
+- [Module 6: Network Layer (IPv4, IPv6)]()
+- [Module 7: IP Addressing]()
+- [Module 8: Subnetting IP Networks]()
+- [Module 9: Transport Layer (TCP/UDP)]()
+- [Module 10: Application Layer]()
+- [Module 11: Build a Small Network (Lab tổng hợp)]()
 
 ---
 
-## 3️⃣ Mẹo Ôn Tập Hiệu Quả
+### 📌 Kỳ 2 – Switching, Routing & Wireless Essentials (SRWE)
 
-- 👉 Luôn ôn **Subnetting** trước — vì nó dễ mất điểm nhất.
-- 👉 Làm lab với **Packet Tracer**, **GNS3** hoặc **EVE-NG**.
-- 👉 Ghi chú **lệnh CLI quan trọng**: VLAN, STP, OSPF, ACL.
-- 👉 Làm quiz trắc nghiệm online mỗi ngày.
-
----
-
-## 4️⃣ Tài Nguyên Học
-
-- 📚 **Sách chuẩn**: *CCNA 200-301 Official Cert Guide Library* (Wendell Odom)
-- 🧩 **Lab miễn phí**: [FreeCCNAWorkbook](https://www.freeccnaworkbook.com/)
-- 🎓 **Diễn đàn Việt**: [VNPro.org](https://vnpro.org)
-- 📥 **Cisco Packet Tracer**: Tải từ [NetAcad](https://www.netacad.com/)
-
----
-
-## 5️⃣ Lời Kết
-
-Hi vọng **Mục lục chi tiết** này giúp bạn bắt đầu học CCNA **có định hướng, không lan man**.  
-Mình sẽ chia sẻ **các bài lab mẫu, file Packet Tracer** ở các blog tiếp theo.  
-💪 *Hãy để lại bình luận hoặc góp ý nếu bạn muốn mình làm thêm file PDF hoặc Mindmap nhé!*
+- [Module 1: Basic Device Configuration Review]()
+- [Module 2: Switching Concepts]()
+- [Module 3: VLANs]()
+- [Module 4: Inter-VLAN Routing]()
+- [Module 5: STP Concepts]()
+- [Module 6: EtherChannel]()
+- [Module 7: DHCPv4]()
+- [Module 8: SLAAC và DHCPv6]()
+- [Module 9: Static Routing]()
+- [Module 10: Routing Concepts]()
+- [Module 11: Single-Area OSPF]()
+- [Module 12: Access Control Lists]()
+- [Module 13: NAT for IPv4]()
+- [Module 14: Device Discovery, Management]()
+- [Module 15: LAN Security Concepts]()
+- [Module 16: WLAN Concepts]()
+- [Module 17: WLAN Configuration]()
+- [Module 18: Troubleshooting & Lab tổng hợp]()
 
 ---
 
-> 📌 *Tác giả: VnPro AI Tutor*  
-> 🔗 *Nguồn tham khảo: Cisco Learning Network, Official Cert Guide*
+### 📌 Kỳ 3 – Enterprise Networking, Security & Automation (ENSA)
+
+- [Module 1: Single-Area OSPFv2 Concepts]()
+- [Module 2: Single-Area OSPFv2 Configuration]()
+- [Module 3: WAN Concepts]()
+- [Module 4: VPN và GRE Tunnel]()
+- [Module 5: QoS Concepts]()
+- [Module 6: Network Management]()
+- [Module 7: Network Security Fundamentals]()
+- [Module 8: ACL nâng cao]()
+- [Module 9: DHCP Snooping, DAI, Port Security]()
+- [Module 10: SNMP, Syslog, NTP]()
+- [Module 11: Network Automation Concepts]()
+- [Module 12: Controller-based Networking (SDN, DNA Center)]()
+- [Module 13: Review & Lab tổng hợp]()
+
+---
+
+## ✅ Kết Luận
+
+Trên đây là **bản ghi chú lộ trình CCNA 200-301**, chia **3 kỳ – 42 module** rõ ràng.  
+💡 Sau này mỗi module sẽ có link bài viết chi tiết, file lab và mẹo học đi kèm.  
+👉 Hãy **star repo**, follow blog để nhận các bài lab tiếp theo nhé!
+
+---
+
+> ✍️ *Viết bởi cá nhân – ChatGPT đồng hành chỉnh sửa.*  
+> 🔗 *Nguồn: Cisco NetAcad chính thức.*
