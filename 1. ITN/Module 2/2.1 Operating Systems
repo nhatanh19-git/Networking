@@ -1,0 +1,76 @@
+| **Title** | 2.1 Operating Systems |
+|:---------:|:----------------------:|
+| **ID**    | CCNET009               |
+| **Tag**   | CCNA, Cisco, NetAcad, OS, CLI, GUI |
+
+---
+
+## 2.1.0 Mục tiêu
+
+- Hiểu **hệ điều hành mạng (Network OS)**.
+- Phân biệt **CLI** và **GUI**.
+- Nắm khái niệm **Cisco IOS**, firmware.
+- Biết các **cách truy cập** và **phần mềm terminal**.
+
+---
+
+## 2.1.1 Operating Systems
+
+- Thiết bị đầu cuối & thiết bị mạng cần **hệ điều hành (OS)**.
+- OS gồm **kernel** (làm việc với phần cứng) & **shell** (giao tiếp người dùng).
+- Kernel: Giao tiếp giữa phần cứng và phần mềm của máy tính và quản lý cách sử dụng tài nguyên phần cứng để đáp ứng các yêu cầu phần mềm
+- Shell có 2 loại:
+  - **CLI**: Gõ lệnh, cần biết cú pháp.
+  - **GUI**: Giao diện đồ hoạ, dễ dùng hơn.
+
+---
+
+## 2.1.3 Purpose of an OS
+
+| **PC OS (GUI)**                           | **Network OS (CLI)**                          |
+|-------------------------------------------|-----------------------------------------------|
+| Quản lý file, chạy app bằng **chuột**     | Quản lý thiết bị mạng bằng **lệnh text**       |
+| Hiển thị giao diện đồ hoạ, cửa sổ         | Hiển thị dòng lệnh & kết quả trên **terminal**  |
+| VD: Windows, macOS, Ubuntu Desktop        | VD: Cisco IOS trên **switch, router**         |
+
+- **Cisco IOS** có nhiều phiên bản tuỳ thiết bị & tính năng.
+- Có thể **nâng cấp IOS** để mở rộng tính năng hoặc vá lỗi.
+
+---
+
+## 2.1.4 Access Methods
+
+- Một switch mới **có thể tự chuyển tiếp gói tin**, nhưng để bảo mật & quản lý, **bắt buộc phải cấu hình**.
+- Để cấu hình switch/router, bạn cần **kết nối từ xa hoặc trực tiếp** qua **3 phương thức chính**:
+  - **Console**
+  - **SSH (Secure shell)**
+  - **Telnet (Terminal Network)**
+
+| **Phương thức** | **Mô tả**            | **Bảo mật**               | **Tình huống dùng**   |
+|-----------------|----------------------|---------------------------|-----------------------|
+| **Console**     | Kết nối vật lý qua **cáp console** (RJ-45, USB) trực tiếp vào thiết bị. | An toàn, vì chỉ dùng cáp vật lý | Khi thiết bị chưa cấu hình địa chỉ IP hoặc cần cấu hình ban đầu |
+| **SSH**         | Kết nối từ xa qua mạng, **mã hoá** dữ liệu truyền. | Cao, vì **mã hoá** toàn bộ phiên | Quản trị từ xa, quản lý thiết bị qua Internet hoặc LAN.               |
+| **Telnet**      | Kết nối từ xa qua mạng, **không mã hoá** dữ liệu. | Thấp, dễ bị nghe lén| Chỉ dùng trong **mạng tin cậy nội bộ**, hoặc bài lab minh hoạ lý thuyết. |
+
+- **Console**: Luôn là phương thức **an toàn nhất** để cấu hình ban đầu.
+- **SSH**: Là tiêu chuẩn **bắt buộc** khi quản trị từ xa, thay thế Telnet.
+- **Telnet**: Gần như không còn khuyến nghị dùng thực tế, chỉ dùng lab hoặc mạng không có rủi ro.
+
+---
+
+## 2.1.5 Terminal Emulation Programs
+
+- Dùng phần mềm mô phỏng terminal để:
+  - Kết nối **console** bằng dây serial (nối tiếp), **SSH**, **Telnet**.
+  - Cho phép tuỳ chỉnh **phông chữ**, **màu sắc**...
+
+- VD: **PuTTY**, **Tera Term**, **SecureCRT**, **HyperTerminal**.
+
+- PuTTY
+<p align="center">
+  <img src="../../images/module 2/PuTTY.jpg" alt="PuTTY" width="400"/>
+</p>
+
+---
+
+> *Theo Cisco NetAcad – Module 2.1*
