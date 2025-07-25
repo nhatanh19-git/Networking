@@ -15,7 +15,7 @@
 ### 📌 Kỳ 1 – Introduction to Networks (ITN)
 
 - [Module 1: Networking Today](<./1. ITN/Module 1: Networking Today>)
-- [Module 2: Basic Switch and End Device Configuration]()
+- [Module 2: Basic Switch and End Device Configuration](<./1. ITN/Module 2: Basic Switch and End Device Configuration>)
 - [Module 3: Protocols and Communications]()
 - [Module 4: Network Access (Ethernet, MAC, ARP)]()
 - [Module 5: Ethernet Switching]()
