@@ -26,6 +26,8 @@
 - [Module 10: Application Layer]()
 - [Module 11: Build a Small Network (Lab tổng hợp)]()
 
+Kì này tôi sẽ chỉ tóm tắt lý thuyết để mọi người nhận được kiến thức chuẩn Netacad.
+
 ---
 
 ### 📌 Kỳ 2 – Switching, Routing & Wireless Essentials (SRWE)
@@ -72,8 +74,7 @@
 ## ✅ Kết Luận
 
 Trên đây là **bản ghi chú lộ trình CCNA 200-301**, chia **3 kỳ – 42 module** rõ ràng.  
-💡 Sau này mỗi module sẽ có link bài viết chi tiết, file lab và mẹo học đi kèm.  
-👉 Hãy **star repo**, follow blog để nhận các bài lab tiếp theo nhé!
+👉 Hãy nhấp từng module để bắt đầu học nhé!
 
 ---
 
