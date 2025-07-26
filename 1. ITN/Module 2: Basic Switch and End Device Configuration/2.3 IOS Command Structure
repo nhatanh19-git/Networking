@@ -1,0 +1,102 @@
+| **Title** | 2.3 IOS Command Structure |
+|:---------:|:--------------------------:|
+| **ID**    | CCNET011                   |
+| **Tag**   | CCNA, Cisco, NetAcad, CLI, IOS, Syntax |
+
+---
+
+## 2.3.0 Mục Tiêu
+- Hiểu cú pháp lệnh trong **Cisco IOS**.
+- Biết cách sử dụng **cú pháp và đối số** trong CLI.
+- Sử dụng **trợ giúp câu lệnh** và **kiểm tra cú pháp** trong IOS.
+- Ghi nhớ các **phím tắt** giúp thao tác nhanh trên CLI.
+
+---
+
+## 2.3.1 Basic IOS Command Structure
+
+Mỗi lệnh trong **Cisco IOS** tuân theo một **cú pháp chuẩn**:
+
+
+| **Thành phần** | **Mô tả** | **Ví dụ** |
+|----------------|-----------|-----------|
+| **Command (lệnh)** | Câu lệnh, hành động chính cần thực hiện. | `ping` |
+| **Keyword (từ khóa)** | Tham số cố định do hệ điều hành định nghĩa. | `ip protocols` |
+| **Argument (đối số)** | Giá trị tùy chọn do người dùng nhập vào. | `192.168.10.5` |
+
+<p align="center">
+  <img src="../../images/kì 1/module 2/2.3.1.png" alt="Operating Systems" width="400"/>
+</p>
+
+Sau khi nhập đầy đủ lệnh và nhấn **Enter**, thiết bị sẽ thực thi lệnh.
+
+---
+
+## 2.3.2 IOS Command Syntax Check
+
+- Các lệnh có thể yêu cầu **một hoặc nhiều đối số**.
+- Trong tài liệu Cisco:
+  - **Chữ đậm (bold)** đại diện cho **Command** và **Keyword** phải nhập đúng.
+  - *Chữ nghiêng (italic)* đại diện cho **Argument** người dùng nhập.
+
+**Ví dụ:**
+
+| **Lệnh** | **Ý nghĩa** |
+|----------|-------------|
+| **description** *string* | Gán mô tả `string` cho 1 interface. |
+| **ping** *10.10.10.5* | Gửi gói ICMP tới IP đích `10.10.10.5`. |
+| **traceroute** *192.168.254.254* | Truy vết đường đi đến IP đích `192.168.254.254`. |
+
+**Lệnh phức tạp có thể có nhiều tùy chọn:**
+
+
+---
+
+## 2.3.3 IOS Help Features
+
+Cisco IOS hỗ trợ **trợ giúp theo ngữ cảnh** và **kiểm tra cú pháp**, giúp bạn gõ lệnh chính xác hơn.
+
+| **Tính năng** | **Cách sử dụng** | **Chức năng** |
+|---------------|------------------|----------------|
+| **Trợ giúp theo ngữ cảnh** | Gõ `?` tại CLI | Hiển thị các lệnh khả dụng hoặc tham số hợp lệ.|
+| **Kiểm tra cú pháp** | Gõ lệnh sai | IOS báo lỗi nếu cú pháp không hợp lệ. |
+
+> CLI xử lý từ trái sang phải. Khi gặp lỗi cú pháp, nó sẽ dừng và thông báo phần sai.
+
+---
+
+## 2.3.4 Hot Keys and Shortcuts
+
+Bạn có thể rút gọn lệnh hoặc sử dụng **phím tắt** để tăng tốc quá trình cấu hình:
+
+- Rút gọn lệnh: `configure terminal` ➝ `conf t` (vì `conf` là duy nhất).
+- Không được rút gọn mơ hồ: `con` không dùng được vì nhiều lệnh bắt đầu bằng `con`.
+
+| **Phím / Tổ hợp phím**              | **Chức năng**                          |
+|-----------------|----------------------------------------------------------------------|
+| **Tab**      | Tự động hoàn thành lệnh hoặc từ khóa.                                     |
+| **Backspace** | Xoá ký tự bên trái con trỏ.                                                |
+| **Ctrl + D**  | Xoá ký tự tại vị trí con trỏ.                                              |
+| **Ctrl + K**  | Xoá tất cả từ vị trí con trỏ đến cuối dòng.                               |
+| **Esc + D**   | Xoá toàn bộ từ tiếp theo (tính từ con trỏ).                               |
+| **Ctrl + U** hoặc **Ctrl + X**     | Xoá toàn bộ kí tự tính từ con trỏ đến đầu dòng.   |
+| **Ctrl + W**                       | Xoá một từ bên trái con trỏ.                     |
+| **Ctrl + A**                       | Di chuyển con trỏ về đầu dòng.                     |
+| **Left Arrow** hoặc **Ctrl + B**   | Di chuyển con trỏ sang trái 1 ký tự.                |
+| **Esc + B**                        | Di chuyển con trỏ sang trái 1 từ.                  |
+| **Esc + F**                        | Di chuyển con trỏ sang phải 1 từ.                   |
+| **Right Arrow** hoặc **Ctrl + F**  | Di chuyển con trỏ sang phải 1 ký tự.               |
+| **Ctrl + E**                       | Di chuyển con trỏ về cuối dòng.                    |
+| **Up Arrow** hoặc **Ctrl + P**     | Hiển thị lệnh đã nhập trước đó (lịch sử lệnh).      |
+| **Down Arrow** hoặc **Ctrl + N**   | Hiển thị lệnh kế tiếp trong lịch sử lệnh.           |
+| **Ctrl + R** hoặc **Ctrl + I** hoặc **Ctrl + L**     | Hiển thị lại dòng lệnh và thông báo hệ thống sau khi nhận được tin nhắn console |
+| **Ctrl + Z**    | Kết thúc chế độ cấu hình và quay lại **Privileged EXEC Mode**.         |
+| **Ctrl + Shift + 6** | Ngắt tạm thời quá trình đang chạy (như lệnh ping, traceroute,...). |
+
+
+**Lưu ý:**  
+- Khi đầu ra quá dài, IOS sẽ hiện `--More--`. Nhấn `Enter` để cuộn từng dòng hoặc `Space` để cuộn từng trang.
+
+---
+
+> *Theo Cisco NetAcad – Module 2.3*
