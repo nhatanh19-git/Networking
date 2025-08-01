@@ -16,7 +16,7 @@
 
 - [Module 1: Networking Today](<./1. ITN/Module 1: Networking Today>)
 - [Module 2: Basic Switch and End Device Configuration](<./1. ITN/Module 2: Basic Switch and End Device Configuration>)
-- [Module 3: Protocols and Communications]()
+- [Module 3: Protocols and Communications](<./1. ITN/Module 3: Protocols and Models>)
 - [Module 4: Network Access (Ethernet, MAC, ARP)]()
 - [Module 5: Ethernet Switching]()
 - [Module 6: Network Layer (IPv4, IPv6)]()
